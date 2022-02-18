@@ -8,10 +8,10 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-        <TextBlock HorizontalAlignment="Left" Height="93" Margin="658,292,0,0" Text="Kviz" TextWrapping="Wrap" VerticalAlignment="Top" Width="138" FontSize="70"/>
-        <Button x:Name="pocetak" Content="Počni kviz" Margin="599,0,0,0" RenderTransformOrigin="-0.645,-0.186" FontSize="50" Click="pocetak_Click"/>
-        <Button x:Name="leaderboard" Content="Leaderboard" Margin="568,610,0,0" VerticalAlignment="Top" FontSize="50"/>
+    <Grid FocusVisualSecondaryBrush="#99991515" Background="#FF90FDE4">
+        <TextBlock HorizontalAlignment="Left" Height="93" Margin="658,251,0,0" Text="Kviz" TextWrapping="Wrap" VerticalAlignment="Top" Width="138" FontSize="70"/>
+        <Button x:Name="leaderboard" Content="Leaderboard" Margin="568,610,0,0" VerticalAlignment="Top" FontSize="50" Background="#33FF0000" Click="leaderboard_Click"/>
+        <Button x:Name="pocetak" Content="Započni Kviz" Margin="572,0,0,0" FontSize="50" Background="#33FF0000" Click="pocetak_Click"/>
 
     </Grid>
 </Page>

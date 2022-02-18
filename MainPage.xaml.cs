@@ -27,9 +27,14 @@ namespace Perojektni_Kviz
             this.InitializeComponent();
         }
 
+        private void leaderboard_Click(object sender, RoutedEventArgs e)
+        {
+            //this.Frame.Navigate(typeof(Ime));
+        }
+
         private void pocetak_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(BlankPage1));
         }
     }
 }
