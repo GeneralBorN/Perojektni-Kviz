@@ -22,11 +22,18 @@ namespace Perojektni_Kviz
     /// </summary>
     public sealed partial class BlankPage1 : Page
     {
+        //deklaracija varijabli
+        int tocniOdgovor;
+        int brojPitanja;
+        int score;
+        int ukupnoPitanja;
+        
         public BlankPage1()
         {
             this.InitializeComponent();
         }
 
+<<<<<<< Updated upstream
         private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)
         {
 
@@ -35,6 +42,18 @@ namespace Perojektni_Kviz
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(MainPage));
+=======
+        private void postaviPitanje(int qnum)
+        {
+            switch(qnum)//broj pitanja, te postavlja nova pitanja i tocne odgovore
+            {
+                case 1://pitanje 1.
+
+                    break;//zaustavlja switch
+                case 2://pitanje 2. itd
+                    break;
+            }
+>>>>>>> Stashed changes
         }
     }
 }
