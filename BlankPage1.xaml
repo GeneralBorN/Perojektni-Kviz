@@ -9,16 +9,12 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock x:Name="prijava" HorizontalAlignment="Left" Height="117" Margin="330,77,0,0" Text="Prijava" TextWrapping="Wrap" VerticalAlignment="Top" Width="792" SelectionChanged="TextBlock_SelectionChanged" FontSize="72" TextAlignment="Center"/>
-        <TextBox HorizontalAlignment="Left" Height="83" Margin="330,271,0,0" Text="Upiši username" TextWrapping="Wrap" VerticalAlignment="Top" Width="785" FontSize="48"/>
         <CheckBox Content="CheckBox" Margin="1975,709,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="kviz" Content="KVIZ" Height="104" Margin="939,573,0,0" VerticalAlignment="Top" Width="370" FontSize="48"/>
-        <Button Content="Povratak" Height="104" Margin="133,573,0,0" VerticalAlignment="Top" Width="405" FontSize="48" Click="Button_Click"/>
         <CheckBox Content="CheckBox" Margin="1975,709,0,0" VerticalAlignment="Top"/>
         <Button x:Name="button1" Content="Odgovor" Height="104" Margin="133,573,0,0" VerticalAlignment="Top" Width="405" FontSize="48"/>
         <Button x:Name="button4" Content="Odgovor" Height="104" Margin="943,799,0,0" VerticalAlignment="Top" Width="405" FontSize="48"/>
         <Button x:Name="button3" Content="Odgovor" Height="104" Margin="133,799,0,0" VerticalAlignment="Top" Width="405" FontSize="48"/>
         <Button x:Name="button2" Content="Odgovor" Height="104" Margin="943,573,0,0" VerticalAlignment="Top" Width="405" FontSize="48"/>
-        <TextBlock x:Name="pitanja" HorizontalAlignment="Left" Text="Pitanja" TextWrapping="Wrap" VerticalAlignment="Top" Height="146" Width="974" Margin="283,211,0,0" FontWeight="Bold" FontSize="32" TextAlignment="Center"/>
+        <TextBlock x:Name="pitanja" HorizontalAlignment="Left" Text="Pitanja" TextWrapping="Wrap" VerticalAlignment="Top" Height="146" Width="974" Margin="283,205,0,0" FontWeight="Bold" FontSize="32" TextAlignment="Center"/>
     </Grid>
 </Page>
