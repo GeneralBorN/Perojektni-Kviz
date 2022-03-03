@@ -53,8 +53,13 @@ namespace Perojektni_Kviz
                     pitanja.Text = "Tko je tocan odgovor?";
                     tocniOdgovor = 1;
                     break;//zaustavlja switch
-                case 2://pitanje 2. itd
-                    pitanja.Text = "tako je!";
+                case 2://pitanje 2.
+                    pitanja.Text = "Tko je tocan odgovor? -2";
+                    tocniOdgovor = 3;
+                    break;
+                case 3://pitanje 3. itd
+                    string Base = Convert.ToString(score);
+                    pitanja.Text = Base;
                     break;
             }
         }
