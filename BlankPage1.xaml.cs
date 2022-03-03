@@ -32,8 +32,8 @@ namespace Perojektni_Kviz
         {
             this.InitializeComponent();
         }
-
-<<<<<<< Updated upstream
+        
+        
         private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)
         {
 
@@ -42,7 +42,9 @@ namespace Perojektni_Kviz
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(MainPage));
-=======
+        }
+        
+        
         private void postaviPitanje(int qnum)
         {
             switch(qnum)//broj pitanja, te postavlja nova pitanja i tocne odgovore
@@ -53,7 +55,6 @@ namespace Perojektni_Kviz
                 case 2://pitanje 2. itd
                     break;
             }
->>>>>>> Stashed changes
         }
     }
 }
