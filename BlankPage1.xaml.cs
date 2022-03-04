@@ -69,7 +69,7 @@ namespace Perojektni_Kviz
                     tocniOdgovor = 3;
                     break;
                 case 4:
-                    pitanja.Text = "Tko je otac osobnog računala? Edward Robert"
+                    pitanja.Text = "Tko je otac osobnog računala? "
                         + "\n A-Edward Snownden" + "  B-Charles Furlong" + "\n C-Bernays" + "  D- Edward Robert";
                     tocniOdgovor = 4;
                     break;
@@ -171,6 +171,7 @@ namespace Perojektni_Kviz
             if(trenutnoPitanje==ukupnoPitanja)
             {
                 percentage = (int)Math.Round((double)(score * 100) / ukupnoPitanja);
+               
                 score = 0;
                 trenutnoPitanje = 0;
             }

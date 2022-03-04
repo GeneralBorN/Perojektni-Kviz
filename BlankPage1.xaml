@@ -8,7 +8,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <Grid FocusVisualSecondaryBrush="#99991515" Background="#FF90FDE4">
         <CheckBox Content="CheckBox" Margin="1975,709,0,0" VerticalAlignment="Top"/>
         <CheckBox Content="CheckBox" Margin="1975,709,0,0" VerticalAlignment="Top"/>
         <Button x:Name="button1" Content="A" Height="104" Margin="133,573,0,0" VerticalAlignment="Top" Width="405" FontSize="48" Click="button_Click"/>
