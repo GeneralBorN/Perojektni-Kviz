@@ -54,41 +54,15 @@ namespace Perojektni_Kviz
                         +"\n A-Computer" + "  B-Computing" + "\n C-Compjuter" + "  D-Compute";
                     tocniOdgovor = 1;
                     break;//zaustavlja switch
-<<<<<<< Updated upstream
-                case 2://pitanje 2.
-                    pitanja.Text = "Tko je tocan odgovor? -2";
-                    tocniOdgovor = 3;
-                    break;
-                case 3://pitanje 3. itd
-                    string Base = Convert.ToString(score);
-                    pitanja.Text = Base;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-                case 2://pitanje 2. itd
+
+
+                case 2:
                     pitanja.Text = "Tko je izumitelj “Difference Engine”? "
                         + "\n A-Charles Dickens" + "  B-Charles Babbage" + "\n C-Charles Darwin" + "  D-Charles Pearce"; 
                     tocniOdgovor = 2;
-=======
-                case 2://pitanje 2.
-                    pitanja.Text = "Tko je tocan odgovor? -2";
-                    tocniOdgovor = 3;
-=======
-                case 2://pitanje 2.
-                    pitanja.Text = "Tko je tocan odgovor? -2";
-                    tocniOdgovor = 3;
->>>>>>> Stashed changes
                     break;
-                case 3://pitanje 3. itd
-                    string Base = Convert.ToString(score);
-                    pitanja.Text = Base;
->>>>>>> 78b78e513f0ad3c933833b3d828c9720d3653b38
-                    break;
-                case 3://pitanje 3. itd
-                    string Base = Convert.ToString(score);
-                    pitanja.Text = Base;
->>>>>>> 78b78e513f0ad3c933833b3d828c9720d3653b38
-                    break;
+
+
                 case 3:
                     pitanja.Text = "Tko je otac informatike? "
                         + "\n A-Allen Iverson" + "  B-Allen Greene" + "\n C-Allen Turing" + "  D-Allen Bradley";
