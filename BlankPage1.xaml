@@ -8,13 +8,13 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid FocusVisualSecondaryBrush="#99991515" Background="#FF90FDE4">
+    <Grid FocusVisualSecondaryBrush="#99991515" Background="#095056">
         <CheckBox Content="CheckBox" Margin="1975,709,0,0" VerticalAlignment="Top"/>
         <CheckBox Content="CheckBox" Margin="1975,709,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="button1" Content="A" Height="104" Margin="133,573,0,0" VerticalAlignment="Top" Width="405" FontSize="48" Click="button_Click"/>
-        <Button x:Name="button4" Content="D" Height="104" Margin="943,799,0,0" VerticalAlignment="Top" Width="405" FontSize="48" Click="button_Click"/>
-        <Button x:Name="button3" Content="C" Height="104" Margin="133,799,0,0" VerticalAlignment="Top" Width="405" FontSize="48" Click="button_Click"/>
-        <Button x:Name="button2" Content="B" Height="104" Margin="943,573,0,0" VerticalAlignment="Top" Width="405" FontSize="48" Click="button_Click"/>
-        <TextBlock x:Name="pitanja" HorizontalAlignment="Center" Text="Pitanja" TextWrapping="Wrap" VerticalAlignment="Top" Height="263" Width="1236" Margin="0,205,0,0" FontWeight="Bold" FontSize="32" TextAlignment="Center"/>
+        <Button x:Name="button1" Content="A" Height="104" Margin="133,573,0,0" VerticalAlignment="Top" Width="405" FontSize="48" Click="button_Click" AccessKey="1"/>
+        <Button x:Name="button4" Content="D" Height="104" Margin="943,799,0,0" VerticalAlignment="Top" Width="405" FontSize="48" Click="button_Click" AccessKey="4"/>
+        <Button x:Name="button3" Content="C" Height="104" Margin="133,799,0,0" VerticalAlignment="Top" Width="405" FontSize="48" Click="button_Click" AccessKey="3"/>
+        <Button x:Name="button2" Content="B" Height="104" Margin="943,573,0,0" VerticalAlignment="Top" Width="405" FontSize="48" Click="button_Click" AccessKey="2"/>
+        <TextBlock x:Name="pitanja" HorizontalAlignment="Center" Text="Pitanja" TextWrapping="Wrap" VerticalAlignment="Top" Height="263" Width="1416" Margin="0,205,0,0" FontWeight="Bold" FontSize="32" TextAlignment="Center"/>
     </Grid>
 </Page>

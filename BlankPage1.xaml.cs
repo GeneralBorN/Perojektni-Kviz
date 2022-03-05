@@ -26,9 +26,9 @@ namespace Perojektni_Kviz
         int tocniOdgovor;
         int brojPitanja;
         int score=0;
-        int ukupnoPitanja;
+        int ukupnoPitanja=20;
         int trenutnoPitanje = 1;
-        int percentage;
+        double percentage;
 
         public BlankPage1()
         {
@@ -53,6 +53,7 @@ namespace Perojektni_Kviz
                     pitanja.Text = "Izraz 'Računalo' potječe od ……….? latinski" 
                         +"\n A-Computer" + "  B-Computing" + "\n C-Compjuter" + "  D-Compute";
                     tocniOdgovor = 1;
+
                     break;//zaustavlja switch
 
 
@@ -153,7 +154,7 @@ namespace Perojektni_Kviz
                          + "\n A-Charles Bakkage" + "  B-Charles Ballage" + "\n C-Charles Baggage" + "  D-Charles Babbage";
                     tocniOdgovor = 4;
                     break;
-
+               
             }
         }
 
@@ -162,21 +163,25 @@ namespace Perojektni_Kviz
             var senderObject = (Button)sender;
 
             int buttonTag = Convert.ToInt32(senderObject.Tag);
-
-            if(trenutnoPitanje==tocniOdgovor)
+            
+            if(Convert.ToInt32(senderObject.AccessKey)==tocniOdgovor)
             {
                 score++;
             }
 
-            if(trenutnoPitanje==ukupnoPitanja)
+            if (trenutnoPitanje == ukupnoPitanja)
             {
-                percentage = (int)Math.Round((double)(score * 100) / ukupnoPitanja);
-               
-                score = 0;
-                trenutnoPitanje = 0;
+                percentage = score/20.0*100;
+   
+                pitanja.Text ="Tvoj score je:" + score.ToString();
+                
+
             }
-            trenutnoPitanje++;
-            postaviPitanje(trenutnoPitanje);
+            else
+            {
+                trenutnoPitanje++;
+                postaviPitanje(trenutnoPitanje);
+            }
         }
     }
 }
