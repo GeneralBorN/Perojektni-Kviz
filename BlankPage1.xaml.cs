@@ -24,7 +24,7 @@ namespace Perojektni_Kviz
     {
         //deklaracija varijabli
         int tocniOdgovor;
-        int brojPitanja;
+       
         int score=0;
         int ukupnoPitanja=20;
         int trenutnoPitanje = 1;
@@ -34,7 +34,7 @@ namespace Perojektni_Kviz
         {
             this.InitializeComponent();
 
-            brojPitanja = 20;
+           
             postaviPitanje(trenutnoPitanje);
         }
         
