@@ -8,7 +8,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid FocusVisualSecondaryBrush="#99991515" Background="#095056">
+    <Grid FocusVisualSecondaryBrush="#99991515" Background="#FF022D31">
         <Button x:Name="pocetak" Content="Započni Kviz" Margin="572,662,0,0" FontSize="50" Background="#33FF0000" Click="pocetak_Click" VerticalAlignment="Top"/>
         <Image HorizontalAlignment="Left" Height="448" Margin="384,79,0,0" VerticalAlignment="Top" Width="746" Source="Assets/quiz.png"/>
 
