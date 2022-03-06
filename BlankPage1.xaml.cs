@@ -173,7 +173,7 @@ namespace Perojektni_Kviz
             {
                 percentage = score/20.0*100;
    
-                pitanja.Text ="Tvoj score je:" + score.ToString();
+                pitanja.Text ="Tvoj score je: " + score.ToString();
                 
 
             }
