@@ -9,8 +9,8 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid FocusVisualSecondaryBrush="#99991515" Background="#095056">
-        <TextBlock HorizontalAlignment="Left" Height="93" Margin="658,251,0,0" Text="Kviz" TextWrapping="Wrap" VerticalAlignment="Top" Width="138" FontSize="70"/>
-        <Button x:Name="pocetak" Content="Započni Kviz" Margin="572,0,0,0" FontSize="50" Background="#33FF0000" Click="pocetak_Click"/>
+        <Button x:Name="pocetak" Content="Započni Kviz" Margin="572,662,0,0" FontSize="50" Background="#33FF0000" Click="pocetak_Click" VerticalAlignment="Top"/>
+        <Image HorizontalAlignment="Left" Height="448" Margin="384,79,0,0" VerticalAlignment="Top" Width="746" Source="Assets/quiz.png"/>
 
     </Grid>
 </Page>
